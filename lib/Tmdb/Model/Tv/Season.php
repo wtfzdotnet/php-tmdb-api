@@ -126,12 +126,16 @@ class Season extends AbstractModel
     }
 
     /**
-     * @param string $airDate
+     * @param DateTime|string|null $airDate
      * @return self
      */
-    public function setAirDate($airDate)
+    public function setAirDate($airDate = null)
     {
-        $this->airDate = new DateTime($airDate);
+        if (!$airDate instanceof DateTime && $airDate !== null) {
+            $airDate = new DateTime($airDate);
+        }
+
+        $this->airDate = $airDate;
 
         return $this;
     }
