@@ -26,9 +26,11 @@ class SpokenLanguage extends AbstractModel implements LanguageFilter
     public static $properties = [
         'iso_639_1',
         'name',
+        'english_name',
     ];
     private $iso6391;
     private $name;
+    private $englishName;
 
     /**
      * @return string
@@ -64,6 +66,25 @@ class SpokenLanguage extends AbstractModel implements LanguageFilter
     public function setName($name)
     {
         $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getEnglishName()
+    {
+        return $this->englishName;
+    }
+
+    /**
+     * @param string $englishName
+     * @return self
+     */
+    public function setEnglishName($englishName)
+    {
+        $this->englishName = $englishName;
 
         return $this;
     }
