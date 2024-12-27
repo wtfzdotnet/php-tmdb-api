@@ -46,4 +46,13 @@ class Configuration extends AbstractApi
     {
         return $this->get('configuration', [], $headers);
     }
+
+    /**
+     * @param array $headers
+     * @return array
+     */
+    public function getLanguages(array $headers = []): array
+    {
+        return $this->get('configuration/languages', [], $headers);
+    }
 }

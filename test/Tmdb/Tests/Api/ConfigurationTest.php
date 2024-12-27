@@ -27,6 +27,17 @@ class ConfigurationTest extends TestCase
         $this->assertLastRequestIsWithPathAndMethod('/3/configuration');
     }
 
+    /**
+     * @test
+     */
+    public function shouldGetLanguages()
+    {
+        $api = $this->getApiWithMockedHttpAdapter();
+
+        $api->getLanguages();
+        $this->assertLastRequestIsWithPathAndMethod('/3/configuration/languages');
+    }
+
     protected function getApiClass()
     {
         return 'Tmdb\Api\Configuration';
