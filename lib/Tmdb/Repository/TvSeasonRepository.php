@@ -195,4 +195,29 @@ class TvSeasonRepository extends AbstractRepository
 
         return $season->getVideos();
     }
+
+    /**
+     * Get the videos that have been added to a TV season (trailers, teasers, etc...)
+     *
+     * @param $tvShow
+     * @param $season
+     * @param $parameters
+     * @param $headers
+     * @return Videos|Video[]
+     */
+    public function getTranslations($tvShow, $season, array $parameters = [], array $headers = [])
+    {
+        if ($tvShow instanceof Tv) {
+            $tvShow = $tvShow->getId();
+        }
+
+        if ($season instanceof Season) {
+            $season = $season->getSeasonNumber();
+        }
+
+        $data = $this->getApi()->getTranslations($tvShow, $season, $this->parseQueryParameters($parameters), $headers);
+        $season = $this->getFactory()->create(['translations' => $data]);
+
+        return $season->getTranslations();
+    }
 }

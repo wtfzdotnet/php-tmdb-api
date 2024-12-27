@@ -107,4 +107,21 @@ class TvSeason extends AbstractApi
     {
         return $this->get(sprintf('tv/%s/season/%s/changes', $tvshow_id, $season_number), $parameters, $headers);
     }
+
+    /**
+     * Look up a TV season's changes by season ID.
+     * This method is used in conjunction with the /tv/{id}/changes method.
+     *
+     * This method uses the season_id value found in the change entries.
+     *
+     * @param integer $tvshow_id
+     * @param integer $season_number
+     * @param array $parameters
+     * @param array $headers
+     * @return mixed
+     */
+    public function getTranslations($tvshow_id, $season_number, array $parameters = [], array $headers = [])
+    {
+        return $this->get(sprintf('tv/%s/season/%s/translations', $tvshow_id, $season_number), $parameters, $headers);
+    }
 }

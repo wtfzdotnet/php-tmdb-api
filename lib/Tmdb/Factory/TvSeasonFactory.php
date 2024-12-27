@@ -19,9 +19,9 @@ use Tmdb\Factory\Common\VideoFactory;
 use Tmdb\Factory\People\CastFactory;
 use Tmdb\Factory\People\CrewFactory;
 use Tmdb\HttpClient\HttpClient;
-use Tmdb\Model\AbstractModel;
 use Tmdb\Model\Common\ExternalIds;
 use Tmdb\Model\Common\GenericCollection;
+use Tmdb\Model\Common\Translation;
 use Tmdb\Model\Person\CastMember;
 use Tmdb\Model\Person\CrewMember;
 use Tmdb\Model\Tv\Season;
@@ -155,6 +155,15 @@ class TvSeasonFactory extends AbstractFactory
 
         if (array_key_exists('changes', $data) && $data['changes'] !== null) {
             $tvSeason->setChanges($this->getChangesFactory()->createCollection($data['changes']));
+        }
+
+        if (array_key_exists('translations', $data) && $data['translations'] !== null) {
+            $tvSeason->setTranslations(
+                $this->createGenericCollection(
+                    $data['translations']['translations'] ?? [],
+                    new Translation()
+                )
+            );
         }
 
         return $this->hydrate($tvSeason, $data);

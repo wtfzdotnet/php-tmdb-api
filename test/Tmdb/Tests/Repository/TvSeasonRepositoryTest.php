@@ -72,6 +72,23 @@ class TvSeasonRepositoryTest extends TestCase
     /**
      * @test
      */
+    public function shouldGetTranslations()
+    {
+        $repository = $this->getRepositoryWithMockedHttpAdapter();
+
+        $tv = new Tv();
+        $tv->setId(self::TV_ID);
+
+        $season = new Tv\Season();
+        $season->setSeasonNumber(self::SEASON_NUMBER);
+
+        $repository->getTranslations($tv, $season);
+        $this->assertLastRequestIsWithPathAndMethod('/3/tv/' . self::TV_ID . '/season/' . self::SEASON_NUMBER . '/translations');
+    }
+
+    /**
+     * @test
+     */
     public function shouldGetExternalIds()
     {
         $repository = $this->getRepositoryWithMockedHttpAdapter();

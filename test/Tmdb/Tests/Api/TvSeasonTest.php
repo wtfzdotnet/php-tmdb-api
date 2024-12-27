@@ -87,6 +87,17 @@ class TvSeasonTest extends TestCase
         $this->assertLastRequestIsWithPathAndMethod('/3/tv/' . self::TV_ID . '/season/' . self::SEASON_ID . '/changes');
     }
 
+    /**
+     * @test
+     */
+    public function shouldGetSeasonTranslations()
+    {
+        $api = $this->getApiWithMockedHttpAdapter();
+
+        $api->getTranslations(self::TV_ID, self::SEASON_ID);
+        $this->assertLastRequestIsWithPathAndMethod('/3/tv/' . self::TV_ID . '/season/' . self::SEASON_ID . '/translations');
+    }
+
     protected function getApiClass()
     {
         return 'Tmdb\Api\TvSeason';
