@@ -30,7 +30,7 @@ class TvEpisodeFactoryTest extends TestCase
          * @var TvEpisodeFactory $factory
          */
         $factory = $this->getFactory();
-        $data    = $this->loadByFile('tv/season/episode/all.json');
+        $data = $this->loadByFile('tv/season/episode/all.json');
 
         /**
          * @var Episode $episode
@@ -82,13 +82,14 @@ class TvEpisodeFactoryTest extends TestCase
         $this->assertEquals(new \DateTime('2009-03-08'), $this->episode->getAirDate());
         $this->assertEquals(1, $this->episode->getEpisodeNumber());
         $this->assertEquals('Seven Thirty-Seven', $this->episode->getName());
-        $this->assertEquals('Walt and Jesse try to figure a way out of their partnership with Tuco. Hank tries to mend the fences between Marie and Skyler.', $this->episode->getOverview());
-        $this->assertEquals(62092, $this->episode->getId());
-        $this->assertEquals(null, $this->episode->getProductionCode());
+        $this->assertEquals('Walt and Jesse are vividly reminded of Tuco’s volatile nature, and try to figure a way out of their business partnership. Hank attempts to mend fences between the estranged Marie and Skyler.', $this->episode->getOverview());
+        $this->assertEquals(972873, $this->episode->getId());
+        $this->assertEquals("", $this->episode->getProductionCode());
         $this->assertEquals(2, $this->episode->getSeasonNumber());
-        $this->assertEquals('/bwgioLAgihPCUK21rLWocDaDM3g.jpg', $this->episode->getStillPath());
-        $this->assertEquals(0, $this->episode->getVoteAverage());
-        $this->assertEquals(0, $this->episode->getVoteCount());
+        $this->assertEquals('/7vVujNqjP23MtPqUTBNITIW3DDA.jpg', $this->episode->getStillPath());
+        $this->assertEquals(8.272, $this->episode->getVoteAverage());
+        $this->assertEquals(125, $this->episode->getVoteCount());
+        $this->assertEquals(48, $this->episode->getRuntime());
     }
 
     protected function getFactoryClass()

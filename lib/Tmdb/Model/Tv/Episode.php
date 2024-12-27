@@ -50,7 +50,8 @@ class Episode extends AbstractModel
         'still_path',
         'vote_average',
         'vote_count',
-        'show_id'
+        'show_id',
+        'runtime',
     ];
     /**
      * Credits
@@ -144,6 +145,10 @@ class Episode extends AbstractModel
      * @var integer
      */
     private $showId;
+    /**
+     * @var int
+     */
+    private $runtime;
 
     /**
      * Constructor
@@ -504,5 +509,21 @@ class Episode extends AbstractModel
         $this->showId = $showId;
 
         return $this;
+    }
+
+    /**
+     * @return int
+     */
+    public function getRuntime(): int
+    {
+        return $this->runtime;
+    }
+
+    /**
+     * @param int $runtime
+     */
+    public function setRuntime(int $runtime): void
+    {
+        $this->runtime = $runtime;
     }
 }

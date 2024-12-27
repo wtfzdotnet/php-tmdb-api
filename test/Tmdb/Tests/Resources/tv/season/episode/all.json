@@ -1,555 +1,147 @@
 {
-    "air_date":"2009-03-08",
-    "episode_number":1,
-    "name":"Seven Thirty-Seven",
-    "overview":"Walt and Jesse try to figure a way out of their partnership with Tuco. Hank tries to mend the fences between Marie and Skyler.",
-    "id":62092,
-    "production_code":null,
-    "season_number":2,
-    "still_path":"\/bwgioLAgihPCUK21rLWocDaDM3g.jpg",
-    "vote_average":0,
-    "vote_count":0,
-    "credits":{
-        "cast":[
-            {
-                "character":"Walter White",
-                "credit_id":"52542282760ee313280017f9",
-                "id":17419,
-                "name":"Bryan Cranston",
-                "profile_path":"\/qXWgFCk4OJqmLRUBEj7cbp8dnkx.jpg",
-                "order":0
-            },
-            {
-                "character":"Skyler White",
-                "credit_id":"52542282760ee3132800181b",
-                "id":134531,
-                "name":"Anna Gunn",
-                "profile_path":"\/lKlGjfmu9mJcF4upNrhtG3X9uyq.jpg",
-                "order":1
-            },
-            {
-                "character":"Jesse Pinkman",
-                "credit_id":"52542282760ee31328001845",
-                "id":84497,
-                "name":"Aaron Paul",
-                "profile_path":"\/oTceEUb6A9Bg6DeUTJBTETUOEAy.jpg",
-                "order":2
-            },
-            {
-                "character":"Hank Schrader",
-                "credit_id":"52542283760ee3132800187b",
-                "id":14329,
-                "name":"Dean Norris",
-                "profile_path":"\/500eNhWneDTXQuEXg6BR269IjHr.jpg",
-                "order":3
-            },
-            {
-                "character":"Marie Schrader",
-                "credit_id":"52542283760ee31328001891",
-                "id":1217934,
-                "name":"Betsy Brandt",
-                "profile_path":"\/zpmsca1HCVqYrtWXV9xdmsECDTI.jpg",
-                "order":4
-            },
-            {
-                "character":"Walter White Jr.",
-                "credit_id":"52542284760ee313280018a9",
-                "id":1223196,
-                "name":"RJ Mitte",
-                "profile_path":"\/hO5HJKM6p6SQjpdV8Fs64BJWzmT.jpg",
-                "order":5
-            }
-        ],
-        "crew":[
-            {
-                "id":17419,
-                "name":"Bryan Cranston",
-                "department":"Directing",
-                "job":"Director",
-                "profile_path":"\/qXWgFCk4OJqmLRUBEj7cbp8dnkx.jpg"
-            }
-        ],
-        "guest_stars":[
-            {
-                "id":1260529,
-                "name":"Jesus Jr.",
-                "credit_id":"52725eb0760ee304500a8945",
-                "character":"Gonzo (as Jesus Payan)",
-                "order":34,
-                "profile_path":null
-            },
-            {
-                "id":53255,
-                "name":"Cesar Garcia",
-                "credit_id":"527260de760ee304500af163",
-                "character":"No-Doze",
-                "order":35,
-                "profile_path":"\/6KkknahgOIBaZfz3ip3UV89iVFO.jpg"
-            },
-            {
-                "id":456066,
-                "name":"Ryan Lee",
-                "credit_id":"52726267760ee3044a0a82fa",
-                "character":"Neighborhood Kid",
-                "order":36,
-                "profile_path":"\/ruZj8XZ77CppycNJ4oV3QUrAzvj.jpg"
-            },
-            {
-                "id":1006144,
-                "name":"Vic Browder",
-                "credit_id":"527262a4760ee3044d0c416b",
-                "character":"Detective",
-                "order":37,
-                "profile_path":null
-            },
-            {
-                "id":58650,
-                "name":"Raymond Cruz",
-                "credit_id":"5254227b760ee31328000cd6",
-                "character":"Tuco Salamanca",
-                "order":44,
-                "profile_path":"\/afRJntGec0KE1uIYn9FFyp5lyO8.jpg"
-            },
-            {
-                "id":61535,
-                "name":"Steven Michael Quezada",
-                "credit_id":"5271b489760ee35b3e0881a7",
-                "character":"Steven Gomez",
-                "order":173,
-                "profile_path":"\/dRJsuGKUWlAooFnYEq85SN9C4Nf.jpg"
-            }
-        ]
-    },
-    "external_ids":{
-        "imdb_id":null,
-        "freebase_id":null,
-        "freebase_mid":"\/m\/06z8kf5",
-        "tvdb_id":438912,
-        "tvrage_id":692033
-    },
-    "images":{
-        "stills":[
-            {
-                "aspect_ratio":2,
-                "file_path":"\/bwgioLAgihPCUK21rLWocDaDM3g.jpg",
-                "height":200,
-                "iso_639_1":null,
-                "vote_average":0,
-                "vote_count":0,
-                "width":400
-            }
-        ]
-    },
-    "translations": [
+    "air_date": "2009-03-08",
+    "crew": [
         {
-            "iso_3166_1": "SA",
-            "iso_639_1": "ar",
-            "name": "العربية",
-            "english_name": "Arabic",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
+            "job": "Director",
+            "department": "Directing",
+            "credit_id": "5254227b760ee31328000d85",
+            "adult": false,
+            "gender": 2,
+            "id": 17419,
+            "known_for_department": "Acting",
+            "name": "Bryan Cranston",
+            "original_name": "Bryan Cranston",
+            "popularity": 38.631,
+            "profile_path": "/7Jahy5LZX2Fo8fGJltMreAI49hC.jpg"
         },
         {
-            "iso_3166_1": "BG",
-            "iso_639_1": "bg",
-            "name": "български език",
-            "english_name": "Bulgarian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
+            "job": "Writer",
+            "department": "Writing",
+            "credit_id": "52750452760ee345a913253e",
+            "adult": false,
+            "gender": 2,
+            "id": 212407,
+            "known_for_department": "Writing",
+            "name": "J. Roberts",
+            "original_name": "J. Roberts",
+            "popularity": 0.629,
+            "profile_path": null
         },
         {
-            "iso_3166_1": "BS",
-            "iso_639_1": "bs",
-            "name": "Bosanski",
-            "english_name": "Bosnian",
-            "data": {
-                "name": "Seven Thirty-Seven ",
-                "overview": "Nakon što su vidjeli okrutnog vođu bande Tuca kako ubija jednog od svojih ljudi bez ikakvog očitog razloga, Walt i Jesse shvaćaju da ne znaju kako se nositi sa svojim novim raspačavačem metha. Walt panično odlazi doma i pokušava odvagnuti koje su mu opcije, a Jess uzima stvari u svoje ruke i kupuje si pištolj za samoobranu. U međuvremenu, Hank potiče svoju sve neuravnoteženiju ženu Marie da nastavi posjećivati psihoterapeuta. Hank je vidio videosnimku nedavne krađe metamfetamina, ali nije svjestan da su maskirani lopovi Walt i Jesse. Jesse je zabrinut da njih dvojica sada predstavljaju problem za Tuca i da će ih se morati „riješiti“ pa uvjerava Walta da moraju stvari uzeti u svoje ruke i ubiti ga. Walt ga odgovara od bilo kakvih nepromišljenih poteza, no i on je zabrinut otkad je primijetio da se oko njegove kuće stalno mota jedan crni terenac. Nakon što je shvatio da Jesse ima pravo, Walt planira načiniti smrtonosnu kemikaliju kojom može ubiti Tuca. Hank je zamolio Skyler da pazi na Marie i pozvao Waltera da s njim ide pogledati mjesto ubojstva na lokalnome smetlištu. Nakon što on i Jesse vide slike leša Tucova pomoćnika Gonza, još ih više počne brinuti moguća osveta vođe bande. Strahujući za sigurnost obitelji, Walter uzima Jessejev pištolj i odlazi kući. Walt i Jesse pripremaju se za najgore, a Hank i njegov partner otkrivaju da je Gonzova smrt bila nesretni slučaj. Prije nego što prime tu vijest, Tuco otima Jesseja i s njim dolazi pred kuću Whiteovih kako bi pokupio Waltera te i njega zatočio."
-            }
-        },
-        {
-            "iso_3166_1": "ES",
-            "iso_639_1": "ca",
-            "name": "Català",
-            "english_name": "Catalan",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "CZ",
-            "iso_639_1": "cs",
-            "name": "Český",
-            "english_name": "Czech",
-            "data": {
-                "name": "737",
-                "overview": "Poté, co Tuco umlátil k smrti jednoho ze svých poskoků, Walt a Jesse se začnou bát, že zabije i je. Stali se totiž jedinými svědky vraždy, kterým Tuco ještě tak úplně nevěří. Jesseho napadne, že by mohli Tuca zabít...\n\n"
-            }
-        },
-        {
-            "iso_3166_1": "DK",
-            "iso_639_1": "da",
-            "name": "Dansk",
-            "english_name": "Danish",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "DE",
-            "iso_639_1": "de",
-            "name": "Deutsch",
-            "english_name": "German",
-            "data": {
-                "name": "Vorsichtsmaßnahmen",
-                "overview": "Hank sichtet die Aufnahmen einer Sicherheitskamera, die einen Einbruch von Walter und Jesse zeigen. Als Tucos zweiter Gehilfe auch tot ist, fürchten die beiden Zeugen um ihr Leben. Hank gesteht Skyler, von Maries kleptomanischen Neigungen gewusst zu haben."
-            }
-        },
-        {
-            "iso_3166_1": "GR",
-            "iso_639_1": "el",
-            "name": "ελληνικά",
-            "english_name": "Greek",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "US",
-            "iso_639_1": "en",
-            "name": "English",
-            "english_name": "English",
-            "data": {
-                "name": "Seven Thirty-Seven",
-                "overview": "Walt and Jesse are vividly reminded of Tuco’s volatile nature, and try to figure a way out of their business partnership. Hank attempts to mend fences between the estranged Marie and Skyler."
-            }
-        },
-        {
-            "iso_3166_1": "ES",
-            "iso_639_1": "es",
-            "name": "Español",
-            "english_name": "Spanish",
-            "data": {
-                "name": "Siete treinta y siete",
-                "overview": "Walter y Jesse tratan de encontrar una forma de desvincularse de Tuco. Hank trata de arreglar el problema entre Marie y Skyler."
-            }
-        },
-        {
-            "iso_3166_1": "MX",
-            "iso_639_1": "es",
-            "name": "Español",
-            "english_name": "Spanish",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "EE",
-            "iso_639_1": "et",
-            "name": "Eesti",
-            "english_name": "Estonian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "IR",
-            "iso_639_1": "fa",
-            "name": "فارسی",
-            "english_name": "Persian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "FI",
-            "iso_639_1": "fi",
-            "name": "suomi",
-            "english_name": "Finnish",
-            "data": {
-                "name": "737",
-                "overview": "Tucon sekoilu saa Waltin ja Jessen hermot kireälle, ja he tekevät suunnitelman Tucon pään menoksi. Hank yrittää taivutella Skyleria antamaan anteeksi Marielle."
-            }
-        },
-        {
-            "iso_3166_1": "CA",
-            "iso_639_1": "fr",
-            "name": "Français",
-            "english_name": "French",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "FR",
-            "iso_639_1": "fr",
-            "name": "Français",
-            "english_name": "French",
-            "data": {
-                "name": "Traqués",
-                "overview": "Alors qu'ils planifient leurs derniers gros deals, Walt et Jesse craignent que leur unique client ne les tue quand bon lui semblera."
-            }
-        },
-        {
-            "iso_3166_1": "IL",
-            "iso_639_1": "he",
-            "name": "עִבְרִית",
-            "english_name": "Hebrew",
-            "data": {
-                "name": "שבע מאות שלושים ושבע",
-                "overview": "וולט וג'סי מתכוננים לקראת עסקת הסמים הגדולה וחוששים שהקניין היחיד שלהם לא יהסס להרוג אותם כשיתאים לו."
-            }
-        },
-        {
-            "iso_3166_1": "HR",
-            "iso_639_1": "hr",
-            "name": "Hrvatski",
-            "english_name": "Croatian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "HU",
-            "iso_639_1": "hu",
-            "name": "Magyar",
-            "english_name": "Hungarian",
-            "data": {
-                "name": "A díler bosszúja",
-                "overview": "Walt és Jesse szemtanúi voltak, amint Tuco végez az egyik emberével. Biztosak benne, hogy rájuk is ez a sors vár. Walt elhatározza, hogy még elkészít néhány adag kábítószert, amivel összeszedhet annyi pénzt, amennyi elég lesz a családjának. Walt nagy nehezen rászánja magát, hogy mindent tisztázzon a feleségével, de ekkor a titkos mobilon hívás érkezik. Walt kimegy a ház elé, ahol a halálra rémült Jesse várja, fejénél Tuco fegyverével."
-            }
-        },
-        {
-            "iso_3166_1": "ID",
-            "iso_639_1": "id",
-            "name": "Bahasa indonesia",
-            "english_name": "Indonesian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "IT",
-            "iso_639_1": "it",
-            "name": "Italiano",
-            "english_name": "Italian",
-            "data": {
-                "name": "Tutto cambia",
-                "overview": "Walt e Jesse cercano di interrompere il loro accordo con Tuco. Nel frattempo Hank cerca di aggiustare la relazione tra Marie e Skyler."
-            }
-        },
-        {
-            "iso_3166_1": "JP",
-            "iso_639_1": "ja",
-            "name": "日本語",
-            "english_name": "Japanese",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "KR",
-            "iso_639_1": "ko",
-            "name": "한국어/조선말",
-            "english_name": "Korean",
-            "data": {
-                "name": "11번의 거래",
-                "overview": "월터와 제시는 마지막 대규모 마약 거래를 계획하면서 하나뿐인 바이어가 원하면 언제든지 자신들을 죽일 거라고 걱정한다."
-            }
-        },
-        {
-            "iso_3166_1": "LT",
-            "iso_639_1": "lt",
-            "name": "Lietuvių",
-            "english_name": "Lithuanian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "LV",
-            "iso_639_1": "lv",
-            "name": "Latviešu",
-            "english_name": "Latvian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "NL",
-            "iso_639_1": "nl",
-            "name": "Nederlands",
-            "english_name": "Dutch",
-            "data": {
-                "name": "Seven Thirty-Seven",
-                "overview": "Terwijl ze plannen maken voor hun laatste grote drugsdeal, zijn Walt en Jesse bang dat hun enige afnemer hen zal vermoorden zodra hem dat uitkomt."
-            }
-        },
-        {
-            "iso_3166_1": "NO",
-            "iso_639_1": "no",
-            "name": "Norsk",
-            "english_name": "Norwegian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "PL",
-            "iso_639_1": "pl",
-            "name": "Polski",
-            "english_name": "Polish",
-            "data": {
-                "name": "737",
-                "overview": "Walt i Jesse, planując już ostatnie poważne transakcje narkotykowe, obawiają się, że ich jedyny odbiorca nie zawaha się ich zabić, jeżeli tak mu będzie wygodnie."
-            }
-        },
-        {
-            "iso_3166_1": "BR",
-            "iso_639_1": "pt",
-            "name": "Português",
-            "english_name": "Portuguese",
-            "data": {
-                "name": "Seven Thirty-Seven",
-                "overview": "Enquanto planejam sua última grande venda, Walt e Jesse temem que Tuco esteja pensando em matá-los assim que a entrega for feita."
-            }
-        },
-        {
-            "iso_3166_1": "PT",
-            "iso_639_1": "pt",
-            "name": "Português",
-            "english_name": "Portuguese",
-            "data": {
-                "name": "737",
-                "overview": "Enquanto planeiam os seus últimos negócios de droga, Walt e Jesse receiam que o seu único comprador os mate quando não precisar mais deles."
-            }
-        },
-        {
-            "iso_3166_1": "RO",
-            "iso_639_1": "ro",
-            "name": "Română",
-            "english_name": "Romanian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "RU",
-            "iso_639_1": "ru",
-            "name": "Pусский",
-            "english_name": "Russian",
-            "data": {
-                "name": "Семьсот тридцать семь",
-                "overview": "Придя к выводу, что иметь такого посредника как Саламанка не выгодно и даже опасно, Уайт предлагает Джесси убить его ядом, добавленным в следующую поставку. Его решение лишь укрепляется после того, как Уолтер замечает преследующую его машину, а Шрейдер сообщает ему о ещё одном мёртвом помощнике Туко. Между тем попытка Хэнка поговорить со свояченицей, раскрывает той корень проблем Мари, а ему — проблемы семейства Уайт. Всё больше волнуясь за собственное будущее, Уолтер перепрятывает накопления, когда звонок напарника вносит новые коррективы в его жизнь."
-            }
-        },
-        {
-            "iso_3166_1": "SK",
-            "iso_639_1": "sk",
-            "name": "Slovenčina",
-            "english_name": "Slovak",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "RS",
-            "iso_639_1": "sr",
-            "name": "Srpski",
-            "english_name": "Serbian",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "SE",
-            "iso_639_1": "sv",
-            "name": "svenska",
-            "english_name": "Swedish",
-            "data": {
-                "name": "Seven Thirty-Seven",
-                "overview": "Medan de planerar sina sista stora knarkaffärer oroar sig Walt och Jesse över att deras återförsäljare är helt skrupelfria och kan döda dem när som helst."
-            }
-        },
-        {
-            "iso_3166_1": "TH",
-            "iso_639_1": "th",
-            "name": "ภาษาไทย",
-            "english_name": "Thai",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "TR",
-            "iso_639_1": "tr",
-            "name": "Türkçe",
-            "english_name": "Turkish",
-            "data": {
-                "name": "Yedi Yüz Otuz Yedi",
-                "overview": "Son büyük uyuşturucu vurgunlarını planlayan Walt ve Jesse, ellerindeki tek müşterinin de işine geldiği zaman gözünü kırpmadan onları öldürebileceğinden endişelidirler."
-            }
-        },
-        {
-            "iso_3166_1": "UA",
-            "iso_639_1": "uk",
-            "name": "Український",
-            "english_name": "Ukrainian",
-            "data": {
-                "name": "Сімсот тридцять сім",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "VN",
-            "iso_639_1": "vi",
-            "name": "Tiếng Việt",
-            "english_name": "Vietnamese",
-            "data": {
-                "name": "",
-                "overview": ""
-            }
-        },
-        {
-            "iso_3166_1": "CN",
-            "iso_639_1": "zh",
-            "name": "普通话",
-            "english_name": "Mandarin",
-            "data": {
-                "name": "737",
-                "overview": "在垃圾场与 Tuco 交易后，Walter 和 Jesse 意识到他是多么的疯狂和凶残。Jesse 深信他在自己的街区看到了 Tuco 的黑色 SUV 车，但是 Walter 觉得 Jesse 太多疑了，直到他自己亲眼看到这辆车停在了他家附近。Jesse 想到的解决方法是在 Tuco 对他们动手前先杀掉他，但是 Walter 有更好的办法，那就是运用蓖麻毒素。Hank 发觉有人避开安全监控系统闯入仓库盗窃制毒用的原料，但他不知道这事儿是谁干的。"
-            }
-        },
-        {
-            "iso_3166_1": "TW",
-            "iso_639_1": "zh",
-            "name": "普通话",
-            "english_name": "Mandarin",
-            "data": {
-                "name": "七三七",
-                "overview": "華特和傑斯正計畫他們販毒的最後一筆大生意，而他們擔心唯一的買家遇到合適的時機，除了殺掉他們不會有其他想法。"
-            }
+            "job": "Director of Photography",
+            "department": "Camera",
+            "credit_id": "64603ebedbbb42015305d0a9",
+            "adult": false,
+            "gender": 2,
+            "id": 52034,
+            "known_for_department": "Directing",
+            "name": "Michael Slovis",
+            "original_name": "Michael Slovis",
+            "popularity": 3.583,
+            "profile_path": "/6L2U9eY6YisJlxlmQEwims8Gkf3.jpg"
         }
-    ]
+    ],
+    "episode_number": 1,
+    "guest_stars": [
+        {
+            "character": "No-Doze",
+            "credit_id": "527447ca760ee356ea08e165",
+            "order": 515,
+            "adult": false,
+            "gender": 2,
+            "id": 53255,
+            "known_for_department": "Acting",
+            "name": "Cesar Garcia",
+            "original_name": "Cesar Garcia",
+            "popularity": 3.128,
+            "profile_path": "/bk5IETL71xGmNxiQA7mDHrU6Ar9.jpg"
+        },
+        {
+            "character": "Gonzo",
+            "credit_id": "527447b3760ee3571308a638",
+            "order": 516,
+            "adult": false,
+            "gender": 2,
+            "id": 1260529,
+            "known_for_department": "Acting",
+            "name": "Jesus Jr.",
+            "original_name": "Jesus Jr.",
+            "popularity": 2.309,
+            "profile_path": "/g9FFHKY95LLALg7DuqeX6akAJSG.jpg"
+        },
+        {
+            "character": "Tuco Salamanca",
+            "credit_id": "5254227b760ee31328000cd6",
+            "order": 679,
+            "adult": false,
+            "gender": 2,
+            "id": 58650,
+            "known_for_department": "Acting",
+            "name": "Raymond Cruz",
+            "original_name": "Raymond Cruz",
+            "popularity": 12.919,
+            "profile_path": "/ndhc53yEQeeFn01QoOxtPa6GroU.jpg"
+        },
+        {
+            "character": "Steven Gomez",
+            "credit_id": "5271b489760ee35b3e0881a7",
+            "order": 680,
+            "adult": false,
+            "gender": 2,
+            "id": 61535,
+            "known_for_department": "Acting",
+            "name": "Steven Michael Quezada",
+            "original_name": "Steven Michael Quezada",
+            "popularity": 8.694,
+            "profile_path": "/4BRo6oc26kePVYxgNzYwUrDagVO.jpg"
+        },
+        {
+            "character": "Rowdy Prisoner",
+            "credit_id": "63ff4b8cc7176d00db594b09",
+            "order": 724,
+            "adult": false,
+            "gender": 2,
+            "id": 1884648,
+            "known_for_department": "Acting",
+            "name": "Isaac Kappy",
+            "original_name": "Isaac Kappy",
+            "popularity": 5.577,
+            "profile_path": "/t2Yy4YwlmQGHCp6IOaCeWnMKENh.jpg"
+        },
+        {
+            "character": "Neighborhood Kid",
+            "credit_id": "63ff4b979f1be7007ca6968f",
+            "order": 725,
+            "adult": false,
+            "gender": 2,
+            "id": 456066,
+            "known_for_department": "Acting",
+            "name": "Ryan Lee",
+            "original_name": "Ryan Lee",
+            "popularity": 12.868,
+            "profile_path": "/1DpDbF9qi9nnMfKfGKnyhNPkNCb.jpg"
+        },
+        {
+            "character": "Detective",
+            "credit_id": "63ff4ba3cf62cd00811c281f",
+            "order": 726,
+            "adult": false,
+            "gender": 2,
+            "id": 1006144,
+            "known_for_department": "Acting",
+            "name": "Vic Browder",
+            "original_name": "Vic Browder",
+            "popularity": 4.216,
+            "profile_path": "/lIPhuDHdmO0sDeykHmSkQA9terF.jpg"
+        }
+    ],
+    "name": "Seven Thirty-Seven",
+    "overview": "Walt and Jesse are vividly reminded of Tuco’s volatile nature, and try to figure a way out of their business partnership. Hank attempts to mend fences between the estranged Marie and Skyler.",
+    "id": 972873,
+    "production_code": "",
+    "runtime": 48,
+    "season_number": 2,
+    "still_path": "/7vVujNqjP23MtPqUTBNITIW3DDA.jpg",
+    "vote_average": 8.272,
+    "vote_count": 125
 }
