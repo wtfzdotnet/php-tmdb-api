@@ -111,7 +111,7 @@ class HydrationEvent extends Event
      * @param RequestInterface|null $lastRequest
      * @return self
      */
-    public function setLastRequest(RequestInterface $lastRequest = null): HydrationEvent
+    public function setLastRequest(?RequestInterface $lastRequest = null): HydrationEvent
     {
         $this->lastRequest = $lastRequest;
 
@@ -130,7 +130,7 @@ class HydrationEvent extends Event
      * @param ResponseInterface|null $lastResponse
      * @return self
      */
-    public function setLastResponse(ResponseInterface $lastResponse = null): HydrationEvent
+    public function setLastResponse(?ResponseInterface $lastResponse = null): HydrationEvent
     {
         $this->lastResponse = $lastResponse;
 

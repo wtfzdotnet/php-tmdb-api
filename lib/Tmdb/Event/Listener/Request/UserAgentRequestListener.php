@@ -28,7 +28,7 @@ class UserAgentRequestListener
      * UserAgentRequestListener constructor.
      * @param string|null $userAgent
      */
-    public function __construct(string $userAgent = null)
+    public function __construct(?string $userAgent = null)
     {
         $this->userAgent = $userAgent ?? sprintf('php-tmdb/api/%s', Client::VERSION);
     }

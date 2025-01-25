@@ -44,7 +44,7 @@ class LogHttpMessageListener
      * @param LoggerInterface $logger
      * @param HttpMessageFormatterInterface|null $formatter
      */
-    public function __construct(LoggerInterface $logger, HttpMessageFormatterInterface $formatter = null)
+    public function __construct(LoggerInterface $logger, ?HttpMessageFormatterInterface $formatter = null)
     {
         $this->logger = $logger;
         $this->formatter = $formatter ?: new SimpleHttpMessageFormatter();

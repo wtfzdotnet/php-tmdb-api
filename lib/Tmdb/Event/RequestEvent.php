@@ -45,7 +45,7 @@ class RequestEvent extends StoppableEvent implements LoggableHttpEventInterface
      * @param RequestInterface $request
      * @param SessionToken|null $sessionToken
      */
-    public function __construct(RequestInterface $request, SessionToken $sessionToken = null)
+    public function __construct(RequestInterface $request, ?SessionToken $sessionToken = null)
     {
         $this->request = $request;
         $this->sessionToken = $sessionToken;
@@ -109,7 +109,7 @@ class RequestEvent extends StoppableEvent implements LoggableHttpEventInterface
      * @param SessionToken|null $sessionToken
      * @return self
      */
-    public function setSessionToken(SessionToken $sessionToken = null): RequestEvent
+    public function setSessionToken(?SessionToken $sessionToken = null): RequestEvent
     {
         $this->sessionToken = $sessionToken;
 

@@ -40,7 +40,7 @@ class LogApiErrorListener
      * @param LoggerInterface $logger
      * @param TmdbApiExceptionFormatterInterface|null $formatter
      */
-    public function __construct(LoggerInterface $logger, TmdbApiExceptionFormatterInterface $formatter = null)
+    public function __construct(LoggerInterface $logger, ?TmdbApiExceptionFormatterInterface $formatter = null)
     {
         $this->logger = $logger;
         $this->formatter = $formatter ?: new SimpleTmdbApiExceptionFormatter();

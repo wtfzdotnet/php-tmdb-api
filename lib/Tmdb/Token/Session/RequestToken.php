@@ -63,7 +63,7 @@ class RequestToken
      * @param string|null $token
      * @return self
      */
-    public function setToken(string $token = null)
+    public function setToken(?string $token = null)
     {
         $this->token = $token;
 

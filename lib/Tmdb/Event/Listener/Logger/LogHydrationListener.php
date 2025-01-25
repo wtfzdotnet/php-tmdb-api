@@ -49,7 +49,7 @@ class LogHydrationListener
      */
     public function __construct(
         LoggerInterface $logger,
-        HydrationFormatterInterface $formatter = null,
+        ?HydrationFormatterInterface $formatter = null,
         bool $withData = false
     ) {
         $this->logger = $logger;
