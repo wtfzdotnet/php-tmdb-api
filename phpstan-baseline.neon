@@ -56,14 +56,6 @@ parameters:
 
 		-
 			message: """
-				#^Call to deprecated method getReleases\\(\\) of class Tmdb\\\\Model\\\\Movie\\:
-				Use the getReleaseDates instead$#
-			"""
-			count: 1
-			path: lib/Tmdb/Repository/MovieRepository.php
-
-		-
-			message: """
 				#^Return type of method Tmdb\\\\Repository\\\\MovieRepository\\:\\:getReleases\\(\\) has typehint with deprecated class Tmdb\\\\Model\\\\Movie\\\\Release\\:
 				Use ReleaseDate instead$#
 			"""
