@@ -81,9 +81,9 @@ class TmdbApiException extends Exception
     public function __construct(
         int $code,
         string $message,
-        RequestInterface $request = null,
-        ResponseInterface $response = null,
-        Exception $previous = null
+        ?RequestInterface $request = null,
+        ?ResponseInterface $response = null,
+        ?Exception $previous = null
     ) {
         parent::__construct($message, $code, $previous);
 

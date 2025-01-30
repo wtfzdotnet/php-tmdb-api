@@ -209,9 +209,8 @@ class Images extends GenericCollection
 
         foreach ($this->data as $image) {
             /**
-             * @var $image Image
+             * @var Image $image
              */
-
             if ($image->getVoteAverage() > $voteAverage) {
                 $voteAverage = $image->getVoteAverage();
                 $currentImage = $image;

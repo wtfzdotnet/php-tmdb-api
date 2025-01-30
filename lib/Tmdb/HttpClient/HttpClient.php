@@ -197,7 +197,7 @@ class HttpClient
      * @param string|null $key
      * @return array|mixed
      */
-    public function getOptions(string $key = null)
+    public function getOptions(?string $key = null)
     {
         if ($key) {
             return isset($this->options[$key]) ? $this->options[$key] : null;

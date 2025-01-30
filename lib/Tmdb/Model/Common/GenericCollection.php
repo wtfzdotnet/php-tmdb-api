@@ -375,7 +375,7 @@ class GenericCollection implements ArrayAccess, IteratorAggregate, Countable
      *
      * @return array Returns an array of all matching key value pairs
      */
-    public function getAll(array $keys = null)
+    public function getAll(?array $keys = null)
     {
         return $keys ? array_intersect_key($this->data, array_flip($keys)) : $this->data;
     }

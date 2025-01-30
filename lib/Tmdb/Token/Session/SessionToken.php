@@ -42,7 +42,7 @@ class SessionToken
      *
      * @param string|null $sessionToken
      */
-    public function __construct(string $sessionToken = null)
+    public function __construct(?string $sessionToken = null)
     {
         $this->sessionToken = $sessionToken;
     }

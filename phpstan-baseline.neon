@@ -42,6 +42,11 @@ parameters:
 			path: lib/Tmdb/Factory/MovieFactory.php
 
 		-
+			message: "#^Return type \\(Tmdb\\\\Model\\\\Collection\\\\People\\) of method Tmdb\\\\Factory\\\\PeopleFactory\\:\\:createCollection\\(\\) should be compatible with return type \\(Tmdb\\\\Model\\\\Common\\\\GenericCollection\\<Tmdb\\\\Model\\\\AbstractModel\\>\\) of method Tmdb\\\\Factory\\\\AbstractFactory\\<Tmdb\\\\Model\\\\AbstractModel\\>\\:\\:createCollection\\(\\)$#"
+			count: 1
+			path: lib/Tmdb/Factory/PeopleFactory.php
+
+		-
 			message: "#^Property Tmdb\\\\HttpClient\\\\HttpClient\\:\\:\\$sessionToken is never written, only read\\.$#"
 			count: 1
 			path: lib/Tmdb/HttpClient/HttpClient.php
@@ -53,14 +58,6 @@ parameters:
 			"""
 			count: 1
 			path: lib/Tmdb/Model/Movie.php
-
-		-
-			message: """
-				#^Call to deprecated method getReleases\\(\\) of class Tmdb\\\\Model\\\\Movie\\:
-				Use the getReleaseDates instead$#
-			"""
-			count: 1
-			path: lib/Tmdb/Repository/MovieRepository.php
 
 		-
 			message: """
