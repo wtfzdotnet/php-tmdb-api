@@ -30,7 +30,7 @@ class TvSeasonFactoryTest extends TestCase
          * @var TvSeasonFactory $factory
          */
         $factory = $this->getFactory();
-        $data    = $this->loadByFile('tv/season/all.json');
+        $data = $this->loadByFile('tv/season/all.json');
 
         /**
          * @var Season $this->season
@@ -52,6 +52,7 @@ class TvSeasonFactoryTest extends TestCase
         $this->assertInstanceOf('Tmdb\Model\Collection\Images', $this->season->getImages());
         $this->assertInstanceOf('Tmdb\Model\Common\GenericCollection', $this->season->getEpisodes());
         $this->assertInstanceOf('Tmdb\Model\Image\PosterImage', $this->season->getPosterImage());
+        $this->assertInstanceOf('Tmdb\Model\Common\GenericCollection', $this->season->getTranslations());
     }
 
     /**
@@ -88,7 +89,10 @@ class TvSeasonFactoryTest extends TestCase
         $this->assertEquals(3573, $this->season->getId());
         $this->assertEquals('/rCdISteF1GPvPsy0a5L0LDffjtP.jpg', $this->season->getPosterPath());
         $this->assertEquals(2, $this->season->getSeasonNumber());
-    }
+        $this->assertEquals("Sein Ruf eilt dem zum Meth-Dealer gewordenen Lehrer Walter voraus – das erregt die Aufmerksamkeit rivalisierender Kartelle und gefährdet seinen Schwager, einen Drogencop.",
+            $this->season->getTranslations()->filterLanguage('de')->getIterator()->current()->getData()['overview']
+        );
+}
 
     protected function getFactoryClass()
     {

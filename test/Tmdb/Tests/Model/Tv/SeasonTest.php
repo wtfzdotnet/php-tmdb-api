@@ -35,6 +35,7 @@ class SeasonTest extends TestCase
                 'getImages' => 'Tmdb\Model\Collection\Images',
                 'getEpisodes' => 'Tmdb\Model\Common\GenericCollection',
                 'getVideos' => 'Tmdb\Model\Collection\Videos',
+                'getTranslations' => 'Tmdb\Model\Common\GenericCollection',
             ]
         );
     }

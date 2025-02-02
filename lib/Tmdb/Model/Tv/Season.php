@@ -22,6 +22,7 @@ use Tmdb\Model\Collection\Images;
 use Tmdb\Model\Collection\Videos;
 use Tmdb\Model\Common\ExternalIds;
 use Tmdb\Model\Common\GenericCollection;
+use Tmdb\Model\Common\Translation;
 use Tmdb\Model\Image\PosterImage;
 
 /**
@@ -76,6 +77,10 @@ class Season extends AbstractModel
      */
     protected $changes;
     /**
+     * @var GenericCollection|Translation[]
+     */
+    protected $translations;
+    /**
      * @var DateTime
      */
     private $airDate;
@@ -115,6 +120,7 @@ class Season extends AbstractModel
         $this->episodes = new GenericCollection();
         $this->videos = new Videos();
         $this->changes = new Changes();
+        $this->translations = new GenericCollection();
     }
 
     /**
@@ -319,7 +325,7 @@ class Season extends AbstractModel
     }
 
     /**
-     * @return ?PosterImage
+     * @return PosterImage
      */
     public function getPosterImage()
     {
@@ -360,6 +366,25 @@ class Season extends AbstractModel
     public function setChanges($changes)
     {
         $this->changes = $changes;
+
+        return $this;
+    }
+
+    /**
+     * @return GenericCollection
+     */
+    public function getTranslations(): GenericCollection
+    {
+        return $this->translations;
+    }
+
+    /**
+     * @param GenericCollection $changes
+     * @return self
+     */
+    public function setTranslations($changes)
+    {
+        $this->translations = $changes;
 
         return $this;
     }

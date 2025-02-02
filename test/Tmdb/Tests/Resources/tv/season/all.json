@@ -407,5 +407,429 @@
                 "width":400
             }
         ]
+    },
+    "translations":{
+        "translations": [
+            {
+                "iso_3166_1": "SA",
+                "iso_639_1": "ar",
+                "name": "العربية",
+                "english_name": "Arabic",
+                "data": {
+                    "name": "",
+                    "overview": "مع ارتقاء \"والتر\" في عالم تجارة المخدرات، يلفت انتباه منافسيه ويعرّض حياة صهره (ضابط وكالة مكافحة المخدرات) للخطر."
+                }
+            },
+            {
+                "iso_3166_1": "BG",
+                "iso_639_1": "bg",
+                "name": "български език",
+                "english_name": "Bulgarian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "BS",
+                "iso_639_1": "bs",
+                "name": "Bosanski",
+                "english_name": "Bosnian",
+                "data": {
+                    "name": "Season 2",
+                    "overview": "Walterovi računi za liječenje sve su veći pa se odluči ponovno udružiti s Jessejem. Iako njih dvojica lako proizvedu drogu, dilanje je mnogo veći problem, što zbog policije, što zbog rivalskih bandi. U priču ulazi odvjetnik Saul..."
+                }
+            },
+            {
+                "iso_3166_1": "ES",
+                "iso_639_1": "ca",
+                "name": "Català",
+                "english_name": "Catalan",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "CZ",
+                "iso_639_1": "cs",
+                "name": "Český",
+                "english_name": "Czech",
+                "data": {
+                    "name": "",
+                    "overview": "V druhé sezóně seriálu Perníkový táta Waltovi a Jessemu vše přerůstá přes hlavu. Jejich podnikání dosahuje nových rozměrů a oba zažívají, co všechno obnáší obchodování s drogami. Proslulý modrý amfetamin z nich udělal boháče, ale pro Walta je stále složitější skrývat pravdu před svou manželkou Skyler (Anna Gunn), synem Walterem juniorem (RJ Mitte) a švagrem Hankem (Dean Norris), protidrogovým agentem. Ze všech sil se snaží udržet svůj život pod kontrolou, musí se ale potýkat s brutálními drogovými dealery, stále odtažitější ženou a synem, blížícím se narozením dcery a drogově závislým obchodním partnerem – a při tom všem navíc bojovat s rakovinou plic v konečném stádiu. Za kamerou Perníkového táty: Kompletní druhé sezóny stál Michael Slovis, střihu se ujala držitelka Ceny Emmy® Lynne Willingham, A.C.E. Výkonnými producenty byli Vince Gilligan a Mark Johnson."
+                }
+            },
+            {
+                "iso_3166_1": "DK",
+                "iso_639_1": "da",
+                "name": "Dansk",
+                "english_name": "Danish",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "DE",
+                "iso_639_1": "de",
+                "name": "Deutsch",
+                "english_name": "German",
+                "data": {
+                    "name": "",
+                    "overview": "Sein Ruf eilt dem zum Meth-Dealer gewordenen Lehrer Walter voraus – das erregt die Aufmerksamkeit rivalisierender Kartelle und gefährdet seinen Schwager, einen Drogencop."
+                }
+            },
+            {
+                "iso_3166_1": "GR",
+                "iso_639_1": "el",
+                "name": "ελληνικά",
+                "english_name": "Greek",
+                "data": {
+                    "name": "Σαιζόν 2",
+                    "overview": "Ο Γουόλτερ από καθηγητής έγινε ανερχόμενος έμπορος ναρκωτικών, τραβώντας την προσοχή ανταγωνιστικών καρτέλ και θέτοντας σε κίνδυνο τον εισαγγελέα κουνιάδο του."
+                }
+            },
+            {
+                "iso_3166_1": "US",
+                "iso_639_1": "en",
+                "name": "English",
+                "english_name": "English",
+                "data": {
+                    "name": "",
+                    "overview": "Walt must deal with the chain reaction of his choice, as he and Jesse face new and severe consequences. When danger and suspicion around Walt escalate, he is pushed to new levels of desperation. Just how much higher will the stakes rise? How far is Walt willing to go to ensure his family's security? Will his grand plan spiral out of control?"
+                }
+            },
+            {
+                "iso_3166_1": "ES",
+                "iso_639_1": "es",
+                "name": "Español",
+                "english_name": "Spanish",
+                "data": {
+                    "name": "",
+                    "overview": "Walt (interpretado por Bryan Cranston, ganador de dos Premios Emmy) y Jesse (Aaron Paul) están con el agua al cuello en la segunda temporada de \"Breaking Bad\". A medida que se estrecha su relación, Walt y Jesse empiezan a ver el lado más oscuro del narcotráfico. Aunque ha hecho fortuna gracias a su metanfetamina azul, a Walt le resulta cada vez más difícil ocultarle la verdad a su esposa Skyler (Anna Gunn), a su hijo Walter Jr. (RJ Mitte) y a su cuñado Hank (Dean Norris), el agente de la D.E.A. Walt lucha por mantener su vida bajo control al lidiar con narcotraficantes despiadados, con una esposa e hijo cada vez más distantes, con el nacimiento inminente de su hija y con un socio drogadicto – y eso sin contar con que debe enfrentarse a un cáncer terminal de pulmón."
+                }
+            },
+            {
+                "iso_3166_1": "MX",
+                "iso_639_1": "es",
+                "name": "Español",
+                "english_name": "Spanish",
+                "data": {
+                    "name": "",
+                    "overview": "Walter y Jesse, llegan alto en el juego de las drogas, llamando la atención del cartel rival y poniendo en peligro a Hank; cuñado de Walter y agente de la DEA."
+                }
+            },
+            {
+                "iso_3166_1": "EE",
+                "iso_639_1": "et",
+                "name": "Eesti",
+                "english_name": "Estonian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "IR",
+                "iso_639_1": "fa",
+                "name": "فارسی",
+                "english_name": "Persian",
+                "data": {
+                    "name": "فصل ۲",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "FI",
+                "iso_639_1": "fi",
+                "name": "suomi",
+                "english_name": "Finnish",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "CA",
+                "iso_639_1": "fr",
+                "name": "Français",
+                "english_name": "French",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "FR",
+                "iso_639_1": "fr",
+                "name": "Français",
+                "english_name": "French",
+                "data": {
+                    "name": "",
+                    "overview": "Après les mésaventures rencontrées avec Krazy-8 et Tuco Salamanca, Walter et Jesse décident de monter leur propre affaire. Mais alors que l’empire d'Heisenberg s’étend de plus en plus, un deal tourne mal et les ennuis commencent. Sur les conseils de Saul Goodman, son avocat véreux, Walter entre en contact avec le propriétaire d’une chaîne de restaurant qui pourrait l’aider à écouler ses stocks de drogue. Pendant ce temps, Skyler commence à avoir des doutes sur son mari tandis que Jesse sombre peu à peu dans l’héroïne."
+                }
+            },
+            {
+                "iso_3166_1": "IL",
+                "iso_639_1": "he",
+                "name": "עִבְרִית",
+                "english_name": "Hebrew",
+                "data": {
+                    "name": "",
+                    "overview": "וולטר וייט, מורה שנהפך לסוחר סמים, עולה שלב במשחק הסמים, מושך אליו את תשומת לבם של קרטלים מתחרים ומסכן את גיסו, איש הסוכנות האמריקנית למלחמה בסמים."
+                }
+            },
+            {
+                "iso_3166_1": "HR",
+                "iso_639_1": "hr",
+                "name": "Hrvatski",
+                "english_name": "Croatian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "HU",
+                "iso_639_1": "hu",
+                "name": "Magyar",
+                "english_name": "Hungarian",
+                "data": {
+                    "name": "2. évad",
+                    "overview": "Vajon összejön már végre egy normális drogüzlet ennek a két lúzernek? És vajon jót tesz a biznisznek, ha az ember üzlettársa ritkán van magánál?"
+                }
+            },
+            {
+                "iso_3166_1": "ID",
+                "iso_639_1": "id",
+                "name": "Bahasa indonesia",
+                "english_name": "Indonesian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "IT",
+                "iso_639_1": "it",
+                "name": "Italiano",
+                "english_name": "Italian",
+                "data": {
+                    "name": "",
+                    "overview": "Improvvisatosi spacciatore, un insegnante si fa un nome nel giro della droga e attira l'attenzione dei cartelli rivali, mettendo a rischio la vita dei suoi cari."
+                }
+            },
+            {
+                "iso_3166_1": "JP",
+                "iso_639_1": "ja",
+                "name": "日本語",
+                "english_name": "Japanese",
+                "data": {
+                    "name": "",
+                    "overview": "第2シーズンでは、ウォルターの下した決断が次々と連鎖反応を引き起こす。その対応に追われるウォルターは、ジェシーともどもシビアな事態に巻き込まれていく。膨らむ疑惑、高まる危険。さらなる自暴自棄に追いやられるウォルター。賭け金はどこまでつり上がるのか。家族を守るため、ウォルターはどこまで深入りするのか。彼の壮大な計画は、果たして制御不能に陥ってしまうのか？"
+                }
+            },
+            {
+                "iso_3166_1": "GE",
+                "iso_639_1": "ka",
+                "name": "ქართული",
+                "english_name": "Georgian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "KR",
+                "iso_639_1": "ko",
+                "name": "한국어/조선말",
+                "english_name": "Korean",
+                "data": {
+                    "name": "시즌 2",
+                    "overview": "마약상이 된 교사 월터는 마약 게임에서 승승장구하면서 경쟁하는 카르텔의 표적이 되고, 마약단속국 직원인 처남을 위험에 빠뜨린다."
+                }
+            },
+            {
+                "iso_3166_1": "LT",
+                "iso_639_1": "lt",
+                "name": "Lietuvių",
+                "english_name": "Lithuanian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "LV",
+                "iso_639_1": "lv",
+                "name": "Latviešu",
+                "english_name": "Latvian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "NL",
+                "iso_639_1": "nl",
+                "name": "Nederlands",
+                "english_name": "Dutch",
+                "data": {
+                    "name": "Seizoen 2",
+                    "overview": "De compagnons Walt en Jesse krijgen steeds meer te maken met de extremen van de drugshandel. Hun handelsmerk blue meth maakt ze rijk, maar het wordt voor Walt steeds moeilijker om zijn dubbelleven verborgen te houden voor zijn vrouw Skyler, zijn zoon Walter Jr. en zijn zwager Hank, die bij de narcoticabrigade werkt. Walt leeft in een achtbaan met keiharde drugsdealers, een vrouw en een zoon die steeds verder van hem verwijderd raken, de aanstaande geboorte van zijn dochter, een gebruikende compagnon en zijn strijd tegen longkanker."
+                }
+            },
+            {
+                "iso_3166_1": "NO",
+                "iso_639_1": "no",
+                "name": "Norsk",
+                "english_name": "Norwegian",
+                "data": {
+                    "name": "Sesong 2",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "PL",
+                "iso_639_1": "pl",
+                "name": "Polski",
+                "english_name": "Polish",
+                "data": {
+                    "name": "",
+                    "overview": "Walter wspina się po szczeblach kariery dilera, co przykuwa uwagę konkurencyjnych karteli i zagraża szwagrowi pracującemu w rządowej agencji antynarkotykowej."
+                }
+            },
+            {
+                "iso_3166_1": "BR",
+                "iso_639_1": "pt",
+                "name": "Português",
+                "english_name": "Portuguese",
+                "data": {
+                    "name": "",
+                    "overview": "Walter e Jesse sobem rápido no mundo das drogas, atraindo a atenção de cartéis rivais e ameaçando a vida de Hank, cunhado policial de Walter."
+                }
+            },
+            {
+                "iso_3166_1": "PT",
+                "iso_639_1": "pt",
+                "name": "Português",
+                "english_name": "Portuguese",
+                "data": {
+                    "name": "2ª Temporada",
+                    "overview": "Walter continua a sua ascensão no mundo da droga, o que começa a chamar a atenção de cartéis rivais e põe em perigo a vida do seu cunhado."
+                }
+            },
+            {
+                "iso_3166_1": "RO",
+                "iso_639_1": "ro",
+                "name": "Română",
+                "english_name": "Romanian",
+                "data": {
+                    "name": "",
+                    "overview": "În cel de-al doilea sezon, Walt trebuie să facă față reacției în lanț alese de el, deoarece el și Jesse se confruntă cu consecințe noi și grave. Când pericolul și suspiciunea în jurul lui Walt escaladează, el este împins la noi niveluri de disperare. Cât de mult vor crește miza? Cât de departe este dispus Walt să meargă pentru a asigura securitatea familiei sale? Marele său plan va scăpa de sub control?"
+                }
+            },
+            {
+                "iso_3166_1": "RU",
+                "iso_639_1": "ru",
+                "name": "Pусский",
+                "english_name": "Russian",
+                "data": {
+                    "name": "",
+                    "overview": "Во втором сезоне Уолтера и Джесси похищает наркоторговец Туко, но им удаётся сбежать. Никакие проблемы не могут остановить Уолтера Уайта на пути к намеченной цели, и они с Джесси опять отправляются в пустыню, где за четыре дня готовят крупную партию наркотика. Джесси привлекает своих приятелей для сбыта метамфетамина. Однако вскоре один из них попадает под арест. Начинающие наркоторговцы обращаются за помощью к адвокату Солу Гудману (Боб Оденкерк). Благодаря криминальным связям Сола Уолтер Уайт знакомится с Гусом Фрингом (Джанкарло Эспозито), который покупает весь оставшийся запас метамфетамина за 1,2 миллиона долларов..."
+                }
+            },
+            {
+                "iso_3166_1": "SK",
+                "iso_639_1": "sk",
+                "name": "Slovenčina",
+                "english_name": "Slovak",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "RS",
+                "iso_639_1": "sr",
+                "name": "Srpski",
+                "english_name": "Serbian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "SE",
+                "iso_639_1": "sv",
+                "name": "svenska",
+                "english_name": "Swedish",
+                "data": {
+                    "name": "",
+                    "overview": "Walter klättrar allt högre inom drogbranschen, vilket drar till sig uppmärksamhet från karteller och utsätter hans svåger inom narkotikapolisen för fara."
+                }
+            },
+            {
+                "iso_3166_1": "TH",
+                "iso_639_1": "th",
+                "name": "ภาษาไทย",
+                "english_name": "Thai",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "TR",
+                "iso_639_1": "tr",
+                "name": "Türkçe",
+                "english_name": "Turkish",
+                "data": {
+                    "name": "",
+                    "overview": "Uyuşturucu piyasasında basamakları hızla tırmanan eski öğretmen Walter, rakip kartellerin dikkatini çekerken, Narkotikçi kayınbiraderini tehlikeye sokar."
+                }
+            },
+            {
+                "iso_3166_1": "UA",
+                "iso_639_1": "uk",
+                "name": "Український",
+                "english_name": "Ukrainian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "VN",
+                "iso_639_1": "vi",
+                "name": "Tiếng Việt",
+                "english_name": "Vietnamese",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "CN",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "name": "",
+                    "overview": "贩卖冰毒的沃尔特老师在毒品交易中越陷越深，这引起了竞争对手的注意并使他在缉毒局的小舅子陷入危险中。"
+                }
+            },
+            {
+                "iso_3166_1": "TW",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            }
+        ]
     }
 }
